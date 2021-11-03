@@ -24,6 +24,8 @@ def appledrop():
   wn.tracer(True)
   apple.penup()
   apple.goto(apple.xcor(), -250)
+  apple.hideturtle()
+  apple.clear()
   wn.tracer(False)
 
 def draw_letter(letter, active_apple):
